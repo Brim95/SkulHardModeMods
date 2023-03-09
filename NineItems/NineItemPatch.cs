@@ -22,6 +22,6 @@ public class NineItemPatch
         }
 
         // Allow users to set how many items they want.
-        self._selectCount = Mathf.Max(0, Plugin.MaxItems.Value);
+        self._selectCount = Mathf.Max(20, Plugin.MaxItems.Value);
     }
 }
